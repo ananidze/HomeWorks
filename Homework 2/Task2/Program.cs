@@ -7,11 +7,11 @@ namespace Task2
         static void Main(string[] args)
         {
             Console.Write("Enter X : ");
-
             int x = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter y : ");
 
+            Console.Write("Enter y : ");
             int y = Convert.ToInt32(Console.ReadLine());
+
             Console.WriteLine($"{x} + {y} = {x + y}");
 
             int min = x > y ? y : x;
