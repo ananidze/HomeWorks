@@ -40,7 +40,7 @@ public class Employee
             }
         }
 
-        return HoursOfWorkPerDay.Sum(x => x) > 50 ? sum + sum * 0.2 : sum;
+        return HoursOfWorkPerDay.Sum(x => x) > 50 ? sum  * 1.2 : sum;
     }
 }
 
