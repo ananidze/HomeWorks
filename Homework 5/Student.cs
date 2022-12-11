@@ -2,7 +2,7 @@ namespace Homework_5;
 
 public class Student
 {
-    public string[] Subjects = new string[] { "Science", "English", "Chemistry", "Algebra", "Math" };
+    public string[] Subjects = { "Science", "English", "Chemistry", "Algebra", "Math" };
     
     public string Name { get; set; }
     public int Age { get; set; }
