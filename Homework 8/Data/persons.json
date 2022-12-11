@@ -1,0 +1,16 @@
+[
+  {
+    "Id": 1,
+    "CreateDate": "2022-12-10T15:43:18.066Z",
+    "FirstName": "string",
+    "LastName": "string",
+    "JobPosition": "string",
+    "Salary": 10,
+    "WorkExperience": 10,
+    "PersonAddress": {
+      "Country": "string",
+      "City": "string",
+      "HomeNumber": 10
+    }
+  }
+]
